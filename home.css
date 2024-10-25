@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    background-color: darkolivegreen;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+    size: 25px;
+}
