@@ -1,9 +1,5 @@
-.navbar {
-    display: flex;
-    background-color: darkolivegreen;
-    height: 60px;
-    justify-content: space-around;
-    align-items: center;
+*{
+    background-color: #87CEFB;
 }
 
 a {
@@ -12,8 +8,37 @@ a {
     size: 25px;
 }
 
-.square {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
-  }
+.heading{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 250px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-shadow: 10px 10px 15px rgb(223, 183, 110);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-shadow: -1px 0 rgb(223, 183, 110), 0 1px rgb(223, 183, 110), 1px 0 rgb(223, 183, 110), 0 -1px rgb(223, 183, 110);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    color: green;
+    text-shadow: -1px 0 rgb(111, 197, 111), 0 1px rgb(111, 197, 111), 1px 0 rgb(111, 197, 111), 0 -1px rgb(111, 197, 111);
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
