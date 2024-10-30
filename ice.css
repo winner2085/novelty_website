@@ -1,0 +1,23 @@
+* {
+    background-color: #87CEFB;
+    
+}
+
+img{
+    width: 450px;
+    margin-bottom: 40px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+    font-size: 60px;
+}
+
+.p {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
