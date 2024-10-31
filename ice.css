@@ -1,6 +1,5 @@
 * {
     background-color: #87CEFB;
-    
 }
 
 img{
@@ -20,4 +19,18 @@ img{
     justify-content: space-around;
     color: white;
     font-size: 20px;
+}
+
+a {
+    color: wheat;
+    text-shadow: -1px 0 rgb(223, 183, 110), 0 1px rgb(223, 183, 110), 1px 0 rgb(223, 183, 110), 0 -1px rgb(223, 183, 110);
+    text-decoration: none;
+    font-size: 100px;
+    margin-left: 500px;
+    margin-bottom: 200px;
+}
+
+a:hover {
+    color: green;
+    text-shadow: -1px 0 rgb(111, 197, 111), 0 1px rgb(111, 197, 111), 1px 0 rgb(111, 197, 111), 0 -1px rgb(111, 197, 111);
 }
